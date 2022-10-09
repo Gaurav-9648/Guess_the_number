@@ -9,6 +9,10 @@ from PIL import ImageTk
 # Screen
 root = Tk()
 root.geometry("500x538")
+
+#icon change.
+img=PhotoImage(file="g.png")
+root.iconphoto(False,img)
 root.title("Number Guessing Game")
 root.config(bg='black')
 img = PhotoImage(file="image1.gif")
